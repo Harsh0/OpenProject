@@ -20,7 +20,7 @@ class UserSensor(PollingSensor):
         if payload.status_code == 200:
             user_list = payload.json()
             last_updated_user = user_list['_embedded']['elements'][0]
-            self.sensor_service.dispatch(trigger='op-st2-integration.polling_event',payload=last_updated_user)
+            self.sensor_service.dispatch(trigger='op_st2_integration.polling_event',payload=last_updated_user)
 
     def cleanup(self):
         pass

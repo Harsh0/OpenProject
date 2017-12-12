@@ -1,7 +1,7 @@
 ---
 name: on_polling_event
 pack: op_st2_integration
-description: Rule firing on op-st2-integration.polling_event.
+description: Rule firing on op_st2_integration.polling_event.
 enabled: true
 trigger:
     type: op_st2_integration.polling_event

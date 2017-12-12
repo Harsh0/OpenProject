@@ -10,14 +10,11 @@ parameters:
         type: string
         description: First Name
         required: true
-        position: 1
     status:
         type: string
         description: status
         required: true
-        position: 1
     email:
         type: string
         description: email
         required: true
-        position: 1
