@@ -1,6 +1,6 @@
 ---
 name: output
-pack: op-st2-integration
+pack: op_st2_integration
 runner_type: "python-script"
 description: Integration Success !
 enabled: true

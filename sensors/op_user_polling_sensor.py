@@ -3,7 +3,7 @@ import requests
 import polling
 from requests.auth import HTTPBasicAuth
 
-BASE_URL = 'https://localhost:8080'
+BASE_URL = 'https://10.0.1.180:8080'
 
 class UserSensor(PollingSensor):
     
@@ -16,7 +16,7 @@ class UserSensor(PollingSensor):
 
     def poll(self):
         self._logger.debug('UserSensor dispatching trigger...')
-        payload = requests.get('http://localhost:8080/api/v3/users',auth=HTTPBasicAuth('apikey','b127e063dc38bc793f5ffe42e7b7be73e4078ae8')),   
+        payload = requests.get('http://10.0.1.180:8080/api/v3/users',auth=HTTPBasicAuth('apikey','dcd91d4f82d39ad0e743636e08e377d8264e20c7')),   
         if payload.status_code == 200:
             user_list = payload.json()
             last_updated_user = user_list['_embedded']['elements'][0]
