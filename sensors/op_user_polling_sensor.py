@@ -16,7 +16,7 @@ class UserSensor(PollingSensor):
 
     def poll(self):
         self._logger.debug('UserSensor dispatching trigger...')
-        payload = requests.get('http://10.0.1.180:8080/api/v3/users',auth=HTTPBasicAuth('apikey','dcd91d4f82d39ad0e743636e08e377d8264e20c7')),   
+        payload = requests.get('http://10.0.1.180:8080/api/v3/users',auth=HTTPBasicAuth('apikey','dcd91d4f82d39ad0e743636e08e377d8264e20c7'))   
         if payload.status_code == 200:
             user_list = payload.json()
             last_updated_user = user_list['_embedded']['elements'][0]
