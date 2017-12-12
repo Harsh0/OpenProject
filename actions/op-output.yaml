@@ -1,0 +1,23 @@
+---
+name: output
+pack: op-st2-integration
+runner_type: "python-script"
+description: Integration Success !
+enabled: true
+entry_point: output.py
+parameters:
+    firstName:
+        type: string
+        description: First Name
+        required: true
+        position: 1
+    status:
+        type: string
+        description: status
+        required: true
+        position: 1
+    email:
+        type: string
+        description: email
+        required: true
+        position: 1

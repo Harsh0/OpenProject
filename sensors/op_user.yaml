@@ -1,0 +1,14 @@
+---
+  class_name: "UserPollingSensor"
+  entrt_point:  "op_user_polling_sensor.py"
+  description: "User polling sensor that emits trigger"
+  poll_interval: 60
+  trigger_types:
+    -
+      name: "polling_event"
+      description: "User trigger."
+      payload_info:
+        - "firstName"
+        - "status"
+        - "email"
+  

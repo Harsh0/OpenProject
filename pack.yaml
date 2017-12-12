@@ -1,0 +1,9 @@
+---
+ref: op-st2-integration
+name: Open Project StackStorm Integration
+description: A pack containing sensor, rule, and action.
+keywords:
+    - op-st2
+version: 0.1.0
+author: st2-dev
+email: vaibhav@cloudcover.in
