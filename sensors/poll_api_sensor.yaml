@@ -1,0 +1,13 @@
+---
+class_name: "PollAPISensor"
+entry_point: "poll_api_sensor.py"
+description: "Sensor that poll api and emit trigger"
+poll_interval: 60
+trigger_types:
+  -
+  name: "polling_done_event"
+  description: "Trigger when Polling from sensor is done"
+  payload_info:
+    - "url"
+    - "body" 
+  

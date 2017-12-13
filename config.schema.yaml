@@ -1,6 +1,1 @@
 ---
-  apikey:
-    description: "dcd91d4f82d39ad0e743636e08e377d8264e20c7"
-    type: "string"
-    required: true
-    secret: true

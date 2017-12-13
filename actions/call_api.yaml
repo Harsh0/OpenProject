@@ -1,0 +1,16 @@
+---
+name: call_api
+pack: my_first_pack_st2
+runner_type: "python-script"
+description: call api or schedule new action
+enabled: true
+entry_point: call_api.py
+paramters:  
+    url:
+        type: string
+        description: url to post data 
+        required: true
+    body:
+        type: string
+        description: JSON stringified version of payload
+        required: true

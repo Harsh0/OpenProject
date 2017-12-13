@@ -1,9 +1,10 @@
 ---
-ref: op_st2_integration
-name: Open Project StackStorm Integration
-description: A pack containing sensor, rule, and action.
-keywords:
-    - op_st2
+ref: my_first_pack_st2
+name: My First Pack StackStorm
+description: A pack that poll to api on regular interval and call other api by modifying a little bit, on error schedule job again 5 minutes later
+keyword:
+    - harsh
+    - first_pack
 version: 0.1.0
-author: st2_dev
-email: vaibhav@cloudcover.in
+author: harsh-dev
+email: harsh.singhal040@gmail.com
