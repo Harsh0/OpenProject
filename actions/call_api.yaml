@@ -5,7 +5,7 @@ runner_type: "python-script"
 description: call api or schedule new action
 enabled: true
 entry_point: call_api.py
-paramters:  
+parameters:  
     url:
         type: string
         description: url to post data 
