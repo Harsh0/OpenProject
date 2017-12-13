@@ -1,5 +1,6 @@
 import eventlet
 import requests
+import polling
 from st2reactor.sensor.base import PollingSensor
 
 class PollAPISensor(PollingSensor):
