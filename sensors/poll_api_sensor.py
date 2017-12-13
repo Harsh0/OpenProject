@@ -4,7 +4,7 @@ import polling
 from st2reactor.sensor.base import PollingSensor
 
 class PollAPISensor(PollingSensor):
-    def __init__(self,sensor_service, config):
+    def __init__(self,sensor_service, config=None):
         super(PollAPISensor, self).__init__(sensor_service=sensor_service, config=config)
         self._logger = self.sensor_service.get_logger(name=self.__class__.__name__)
         # self._stop = False
