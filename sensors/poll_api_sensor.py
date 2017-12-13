@@ -2,7 +2,7 @@ import eventlet
 import requests
 from st2reactor.sensor.base import PollingSensor
 
-class PollAPISensor(PollingSensor){
+class PollAPISensor(PollingSensor):
     def __init__(self,sensor_service, config):
         super(PollAPISensor, self).__init__(sensor_service=sensor_service, config=config)
         self._logger = self.sensor_service.get_logger(name=self.__class__.__name__)
@@ -30,4 +30,3 @@ class PollAPISensor(PollingSensor){
 
     def remove_trigger(self, trigger):
         pass
-}
