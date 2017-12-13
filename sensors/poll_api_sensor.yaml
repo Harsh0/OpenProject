@@ -5,9 +5,9 @@ description: "Sensor that poll api and emit trigger"
 poll_interval: 60
 trigger_types:
   -
-  name: "polling_done_event"
-  description: "Trigger when Polling from sensor is done"
-  payload_info:
-    - "url"
-    - "body" 
+    name: "polling_done_event"
+    description: "Trigger when Polling from sensor is done"
+    payload_info:
+      - "url"
+      - "body" 
   
