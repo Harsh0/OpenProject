@@ -1,5 +1,5 @@
 name: my_pack_rule
-pack: polling_done_event
+pack: my_first_pack_st2
 description: Rule for triggeing action
 enabled: true
 trigger:
