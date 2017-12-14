@@ -4,7 +4,7 @@ pack: my_first_pack_st2
 runner_type: "python-script"
 description: call api or schedule new action
 enabled: true
-entry_point: call_api.py
+entry_point: call_api_action.py
 parameters:  
     url:
         type: string
