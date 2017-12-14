@@ -1,5 +1,5 @@
 ---
-name: call_api
+name: call_api_action
 pack: my_first_pack_st2
 runner_type: "python-script"
 description: call api or schedule new action
