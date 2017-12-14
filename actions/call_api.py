@@ -8,6 +8,7 @@ __all__ = [
 
 class OutputAction(Action):
     def run(self, url,body):
+        print(url, body);
         response = requests.get(url+"?body="+body)
         print(response)
         return True
