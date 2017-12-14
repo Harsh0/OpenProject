@@ -5,7 +5,7 @@ enabled: true
 trigger:
   type: my_first_pack_st2.polling_done_event
 action: 
-  ref: my_first_pack_st2.call_api
+  ref: my_first_pack_st2.call_api_action
   parameters:
     url: trigger.url
     body: trigger.body
